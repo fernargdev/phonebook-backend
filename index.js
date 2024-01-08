@@ -100,25 +100,3 @@ const PORT = 3001
 app.listen(PORT, () => {
   console.log(`Server running on port: http://localhost:${PORT}`)
 })
-
-// 3.8*: Paso 8 del backend de la agenda telefónica
-// Configure Morgan para que también muestre los datos
-// enviados en las solicitudes HTTP POST:
-
-// Tenga en cuenta que registrar datos incluso en la consola
-// puede ser peligroso ya que puede contener datos confidenciales
-// y puede violar la ley de privacidad local (por ejemplo, GDPR en la UE) o
-// el estándar comercial. En este ejercicio, no tiene que preocuparse por
-// cuestiones de privacidad, pero en la práctica, intente no registrar
-// ningún dato confidencial.
-
-// Este ejercicio puede resultar bastante desafiante, aunque
-// la solución no requiere mucho código.
-
-// Este ejercicio se puede completar de diferentes maneras.
-// Una de las posibles soluciones utiliza estas dos técnicas:
-
-// creando nuevos tokens:
-// https://github.com/expressjs/morgan#creating-new-tokens
-// JSON.stringify:
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify
