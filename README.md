@@ -32,15 +32,15 @@ Si tiene problemas para que la aplicación funcione, asegúrese de que la estruc
 
 1. Cree una base de datos MongoDB basada en la nube para la aplicación de agenda telefónica con MongoDB Atlas. ✅
 
-2. Cree un archivo mongo.js en el directorio del proyecto, que se puede usar para agregar entradas a la agenda telefónica y para enumerar todas las entradas existentes en la agenda telefónica.
+2. Cree un archivo mongo.js en el directorio del proyecto, que se puede usar para agregar entradas a la agenda telefónica y para enumerar todas las entradas existentes en la agenda telefónica. ✅
 
-- NB: ¡ No incluya la contraseña en el archivo que confirma y envía a GitHub!
+- NB: ¡ No incluya la contraseña en el archivo que confirma y envía a GitHub! ✅
 
-3. La aplicación debería funcionar de la siguiente manera. Utiliza el programa pasando tres argumentos de línea de comando (el primero es la contraseña), por ejemplo:
+3. La aplicación debería funcionar de la siguiente manera. Utiliza el programa pasando tres argumentos de línea de comando (el primero es la contraseña), por ejemplo: ✅
 
    - node mongo.js yourpassword Anna 040-1234556
    - added Anna number 040-1234556 to phonebook
    - node mongo.js yourpassword "Arto Vihavainen" 045-1232456
 
-- Nota: no cierres la conexión en el lugar equivocado . Por ejemplo, el siguiente código no funcionará:
-- NB: Si define un modelo con el nombre Person , mongoose nombrará automáticamente la colección asociada como people .
+- Nota: no cierres la conexión en el lugar equivocado . Por ejemplo, el siguiente código no funcionará: ✅
+- NB: Si define un modelo con el nombre Person , mongoose nombrará automáticamente la colección asociada como people . ✅
