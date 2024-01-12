@@ -19,7 +19,7 @@ const url = `mongodb+srv://angel:${password}@phonebook.iyv8gsv.mongodb.net/phone
 
 mongoose.set('strictQuery', false)
 mongoose.connect(url, {
-  serverSelectionTimeoutMS: 100000000,
+  serverSelectionTimeoutMS: 1000000000,
 })
 
 const personSchema = new mongoose.Schema({
@@ -30,8 +30,8 @@ const personSchema = new mongoose.Schema({
 const Person = mongoose.model('Person', personSchema)
 
 const person = new Person({
-  name,
-  number,
+  name: name,
+  number: number,
 })
 
 // person.save().then((result) => {
