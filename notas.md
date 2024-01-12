@@ -72,7 +72,39 @@ Tambien te explican a cuestionar todo desde el front hasta la db ya que el error
 
 #### (Manejo de errores)[https://fullstackopen.com/en/part3/saving_data_to_mongo_db#error-handling]:
 
-1.
+1. Te explican como manejar errores en diferentes situaciones tomando como referencia el enpoint que se solicia una nota por un id
+2. Te explican como manejar un 404(No Found) en caso de que se introduzca un id que no existe
+3. Te explican como manejar un 500(Internal Server Error) en caso de que se rechaze la promesa por x motivo
+4. Te explican como manejar un 400(Bad Request) en caso de que el cliente haga una solicitud incorrecta, como por ejemplo obtener una nota por su id y pasando el id como un number, esto estaria mal teniendo en cuente que el id es un string.
+5. Te aconsejan dar la mayor info posible acerca del error, se puede lograr imprimiendo en consola o devolviendo una respuesta con info adicional
+
+#### (Trasladar el manejo de errores al middleware)[https://fullstackopen.com/en/part3/saving_data_to_mongo_db#moving-error-handling-into-middleware]:
+
+1. Te explican porque hay casos en lo que es mejor practicar implementar todo el manejo de errores en un solo lugar.
+2. Te explican como funcionan los middleware y como se pueden usar para manejar errores
+
+#### (El orden de carga del middleware.)[https://fullstackopen.com/en/part3/saving_data_to_mongo_db#the-order-of-middleware-loading]:
+
+1. Te explican el orden de ejecucion de una app de express con ejemplos
+2. Te explican el orden en que se ejecutan los middleware y porque
+3. Te mustran con ejemplos como debe estar secuenciado en el backend y lo que pasaria sino fuera asi
+
+#### (Otras operaciones)[https://fullstackopen.com/en/part3/saving_data_to_mongo_db#other-operations]:
+
+1. Actualizan el resto de endpoint que faltan por actualizar del backend para que todos hagan uso de la db
+2. Te explican como actualizar el delete con el metodo findByIdAndDelete
+3. Te explican como actualizar el update con el metodo findByIdAndUpdate
+4. Te explican algunos detalles del parametro opcional {new: true} usado en findByIdAndUpdate
+5. El codigo hasta este momento esta en: https://github.com/fullstack-hy2020/part3-notes-backend/tree/part3-5
+
+#### (Un verdadero juramento de desarrollador full stack)[https://fullstackopen.com/en/part3/saving_data_to_mongo_db#a-true-full-stack-developers-oath]:
+
+1. Al agregar una capa mas de complejidad y ahora tener front, back y db trabajando en cojunto, la app da un salto por eso te dan los puntos claves a seguir para tu desarrollo, ya que existen muchas fuentes potenciales de error
+2. Te explican que uses las herramientas de la DevTools en todo momento como la consola y network
+3. Estar atento al estado del back y de la db
+4. Progresar en pequeños pasos simpre teniendo conocimiento de como se comporta el codigo en todo momento
+5. Ante errores, parar de escribir codigo y buscar la solucion mediante las herramientas de depuracion, console.log es util en algunas situaciones en otras puede ser mas util el depurador de node del navegador.
+6. Puedes preguntar simpre por el canal de discord o por el telegram.
 
 ### Ejercicios:
 
