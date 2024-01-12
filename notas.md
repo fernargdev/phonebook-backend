@@ -117,9 +117,11 @@ En los siguientes ejercicios, escriba todo el código específico de Mongoose en
 
 #### 3.14: Base de datos de la agenda telefónica, paso 2:
 
-Cambie el backend para que los nuevos números se guarden en la base de datos . Verifique que su interfaz aún funcione después de los cambios.
+Cambie el backend para que los nuevos números se guarden en la base de datos . Verifique que su interfaz aún funcione después de los cambios. ✅
 
-En esta etapa, puede ignorar si ya existe una persona en la base de datos con el mismo nombre que la persona que está agregando.
+En esta etapa, puede ignorar si ya existe una persona en la base de datos con el mismo nombre que la persona que está agregando. ✅
+
+- NOTA: Intenta hacer tambien la funcionalidad de get por id pero el metodo find hace que se me caiga el server y me arroje un buffering time, por ahora voy a pasar de hacerlo, hasta que encuentre una solucion.
 
 ### ME QUEDE:
 
