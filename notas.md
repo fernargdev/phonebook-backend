@@ -68,6 +68,12 @@ Tambien te explican a cuestionar todo desde el front hasta la db ya que el error
 3. Ya entonces tendriamos una mezcla de front, back y db, por lo que seria recomendable inspeccionar el estado persistente en la db. Algunas maneras recomendables seria mediante el panel de control de MongoDb Atlas o mediante pequeños programas auxiliares de Node, como en el caso de mongo.js, estos programitas pueden ser muy utiles.
 4. Dan la direccion donde encontrar el codigo en su totalidad. Esta es: https://github.com/fullstack-hy2020/part3-notes-backend/tree/part3-4.
 
+### Tercera Parte:
+
+#### (Manejo de errores)[https://fullstackopen.com/en/part3/saving_data_to_mongo_db#error-handling]:
+
+1.
+
 ### Ejercicios:
 
 #### 3.12: base de datos de línea de comandos:
@@ -115,14 +121,10 @@ En los siguientes ejercicios, escriba todo el código específico de Mongoose en
 
 - Estoy en la primera parte(https://fullstackopen.com/en/part3/saving_data_to_mongo_db#connecting-the-backend-to-a-database) pero me da error debido a que estoy levantando el backend con npm run dev lo que hace que no se pasen parametros para conectarme, voy a tratar de solucionar esto momentaneamente con un nuevo escript no nativo. Asi funciono pero entonces tengo que ignorar el package ahora. Ahora lo que hice fue instalar dotenv y usarla en su lugar, ya eso parece solucionar el problema en su totalidad.✅
 
-#### 3.14: Base de datos de la agenda telefónica, paso 2:
+#### 3.14: Base de datos de la agenda telefónica, paso 2 ✅:
 
 Cambie el backend para que los nuevos números se guarden en la base de datos . Verifique que su interfaz aún funcione después de los cambios. ✅
 
 En esta etapa, puede ignorar si ya existe una persona en la base de datos con el mismo nombre que la persona que está agregando. ✅
 
-- NOTA: Intenta hacer tambien la funcionalidad de get por id pero el metodo find hace que se me caiga el server y me arroje un buffering time, por ahora voy a pasar de hacerlo, hasta que encuentre una solucion.
-
 ### ME QUEDE:
-
-- Me quede empezando [https://fullstackopen.com/en/part3/saving_data_to_mongo_db#database-configuration-into-its-own-module]
