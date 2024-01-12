@@ -28,7 +28,7 @@ Si tiene problemas para que la aplicación funcione, asegúrese de que la estruc
 - Despues hacer el build y ver que funcione correctamente en local. ✅
 - Despues actualizar el repositorio que se esta desplegando.
 
-### 3.12: base de datos de línea de comandos:
+### 3.12: base de datos de línea de comandos ✅:
 
 1. Cree una base de datos MongoDB basada en la nube para la aplicación de agenda telefónica con MongoDB Atlas. ✅
 
@@ -56,19 +56,21 @@ Si tiene problemas para que la aplicación funcione, asegúrese de que la estruc
 
 - Como tal el unico problema real fue a la hora de conectarse con mongodb por el error que me daba pero despues todo fluyo bien, el error no me dio mas desde que desconecte el VPN y permiti el acceso desde cualquier ip a mi db.
 
-### 3.13: Base de datos de la agenda telefónica, paso 1:
+### 3.13: Base de datos de la agenda telefónica, paso 1 ✅:
 
-Cambie la recuperación de todas las entradas de la agenda telefónica para que los datos se obtengan de la base de datos.
+Cambie la recuperación de todas las entradas de la agenda telefónica para que los datos se obtengan de la base de datos. ✅
 
-Verifique que la interfaz funcione después de que se hayan realizado los cambios.
+Verifique que la interfaz funcione después de que se hayan realizado los cambios. ✅
 
-En los siguientes ejercicios, escriba todo el código específico de Mongoose en su propio módulo, tal como lo hicimos en el capítulo Configuración de la base de datos en su propio módulo .
+En los siguientes ejercicios, escriba todo el código específico de Mongoose en su propio módulo, tal como lo hicimos en el capítulo Configuración de la base de datos en su propio módulo .✅
 
 #### Pasos:
 
-1. Cambiar el back para recuperar las notas de la DB
-2. Escribir todo el codigo especifico de mongoose en su propio modulo
-3. Verificar que siga funcionando mediante el navegador, postman y rest.
-4. Verificar que funcione con el front de la app.
+1. Cambiar el back para recuperar las notas de la DB ✅
+2. Escribir todo el codigo especifico de mongoose en su propio modulo ✅
+3. Verificar que siga funcionando mediante el navegador, postman y rest. ✅
+4. Verificar que funcione con el front de la app. ✅
 
-- Estoy en la primera parte(https://fullstackopen.com/en/part3/saving_data_to_mongo_db#connecting-the-backend-to-a-database) pero me da error debido a que estoy levantando el backend con npm run dev lo que hace que no se pasen parametros para conectarme, voy a tratar de solucionar esto momentaneamente con un nuevo escript no nativo. Asi funciono pero entonces tengo que ignorar el package ahora. Ahora lo que hice fue instalar dotenv y usarla en su lugar, ya eso parece solucionar el problema en su totalidad.
+- Estoy en la primera parte(https://fullstackopen.com/en/part3/saving_data_to_mongo_db#connecting-the-backend-to-a-database) pero me da error debido a que estoy levantando el backend con npm run dev lo que hace que no se pasen parametros para conectarme, voy a tratar de solucionar esto momentaneamente con un nuevo escript no nativo. Asi funciono pero entonces tengo que ignorar el package ahora. Ahora lo que hice fue instalar dotenv y usarla en su lugar, ya eso parece solucionar el problema en su totalidad.✅
+
+### 3.14: sdfsdfsdfdsf:
