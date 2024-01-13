@@ -165,9 +165,18 @@ Cambie el backend para que la eliminación de entradas de la agenda telefónica 
 
 Verifique que la interfaz aún funcione después de realizar los cambios. ✅
 
-#### 3.16: Base de datos de la agenda telefónica, paso 4 :
+#### 3.16: Base de datos de la agenda telefónica, paso 4 ✅:
 
 Mueva el manejo de errores de la aplicación a un nuevo middleware de manejo de errores.
+
+#### 3.17: Base de datos de la agenda telefónica, paso 5 :
+
+Si el usuario intenta crear una nueva entrada en la agenda telefónica para una persona cuyo nombre ya está en la agenda telefónica,
+la interfaz intentará actualizar el número de teléfono de la entrada existente realizando una solicitud HTTP PUT a la URL única de la entrada.
+
+Modifique el backend para admitir esta solicitud.
+
+Verifique que la interfaz funcione después de realizar los cambios.
 
 ### ME QUEDE:
 
