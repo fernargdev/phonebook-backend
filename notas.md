@@ -178,10 +178,10 @@ Modifique el backend para admitir esta solicitud. ✅
 
 Verifique que la interfaz funcione después de realizar los cambios.
 
-#### 3.18: Base de datos de la agenda telefónica paso 6:
+#### 3.18: Base de datos de la agenda telefónica paso 6 ✅:
 
-Actualice también el manejo de las rutas api/persons/:id
-e info para usar la base de datos
+Actualice también el manejo de las rutas api/persons/:id ✅
+e info para usar la base de datos ✅
 y verifique que funcionen directamente con el navegador, Postman o el cliente REST de VS Code.
 
 La inspección de una entrada individual de la agenda desde el navegador debería verse así:

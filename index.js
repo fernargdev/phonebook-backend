@@ -1,3 +1,4 @@
+// Dependencies
 const express = require('express')
 const app = express()
 
@@ -8,6 +9,7 @@ const morgan = require('morgan')
 
 const Person = require('./models/person')
 
+// Utils
 morgan.token('body', (request) => JSON.stringify(request.body))
 
 const uknownEnpoint = (request, response) => {
@@ -24,6 +26,7 @@ const errorHandler = (error, request, response, next) => {
   next(error)
 }
 
+// Middlewares
 app.use(cors())
 app.use(express.json())
 app.use(
@@ -31,6 +34,7 @@ app.use(
 )
 app.use(express.static('dist'))
 
+// Endpoints
 app.get('/info', (request, response) => {
   response.send(
     `
@@ -38,7 +42,6 @@ app.get('/info', (request, response) => {
     Phonebook has info for:  ${Person.length} people 
     <br/><br/>
     Today: ${new Date()}
-    <br/><br/>
     </p>
     `
   )
@@ -103,9 +106,11 @@ app.put('/api/persons/:id', (request, response, next) => {
     .catch((error) => next(error))
 })
 
+// Middlewares
 app.use(uknownEnpoint)
 app.use(errorHandler)
 
+// Listen
 const PORT = process.env.PORT || 3001
 app.listen(PORT, () => {
   console.log(`Server running on port: http://localhost:${PORT}`)
