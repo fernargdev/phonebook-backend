@@ -159,4 +159,12 @@ Cambie el backend para que los nuevos números se guarden en la base de datos . 
 
 En esta etapa, puede ignorar si ya existe una persona en la base de datos con el mismo nombre que la persona que está agregando. ✅
 
+#### 3.15: Base de datos de la agenda telefónica, paso 3 ✅:
+
+Cambie el backend para que la eliminación de entradas de la agenda telefónica se refleje en la base de datos. ✅
+
+Verifique que la interfaz aún funcione después de realizar los cambios. ✅
+
 ### ME QUEDE:
+
+Me quede en: https://fullstackopen.com/en/part3/saving_data_to_mongo_db#exercises-3-13-3-14 ni los he empezado.
