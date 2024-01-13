@@ -1,3 +1,4 @@
+import * as next from 'next'
 const express = require('express')
 const app = express()
 
@@ -35,9 +36,15 @@ app.get('/info', (request, response) => {
   response.send(
     `
     <p>
-    Phonebook has info for ${persons.length} people 
+    Phonebook has info for:  ${Person.length} people 
+    <br/><br/>
+    People we have data: 
+    <ul>
+    ${Person.map((person) => `<li>${person.name}</li>`)}
+    </ul>
     <br/><br/>
     ${new Date()}
+    <br/><br/>
     </p>
     `
   )
@@ -50,17 +57,16 @@ app.get('/api/persons', (request, response) => {
 })
 
 app.get('/api/persons/:id', (request, response) => {
-  const id = Number(request.params.id)
-  const person = persons.find((person) => person.id === id)
-
-  if (person) {
-    response.json(person)
-  } else {
-    response.status(404).end()
-  }
+  Person.findById(request.params.id)
+    .then((person) => {
+      if (person) {
+        response.json(person)
+      } else {
+        response.status(404).end()
+      }
+    })
+    .catch((error) => next(error))
 })
-
-app.get('/api/persons', (request, response) => {})
 
 const generateRandomId = () => Math.floor(Math.random() * 10000) + 1
 

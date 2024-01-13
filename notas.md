@@ -169,14 +169,22 @@ Verifique que la interfaz aún funcione después de realizar los cambios. ✅
 
 Mueva el manejo de errores de la aplicación a un nuevo middleware de manejo de errores.
 
-#### 3.17: Base de datos de la agenda telefónica, paso 5 :
+#### 3.17: Base de datos de la agenda telefónica, paso 5 ✅:
 
-Si el usuario intenta crear una nueva entrada en la agenda telefónica para una persona cuyo nombre ya está en la agenda telefónica,
-la interfaz intentará actualizar el número de teléfono de la entrada existente realizando una solicitud HTTP PUT a la URL única de la entrada.
+Si el usuario intenta crear una nueva entrada en la agenda telefónica para una persona cuyo nombre ya está en la agenda telefónica, ✅
+la interfaz intentará actualizar el número de teléfono de la entrada existente realizando una solicitud HTTP PUT a la URL única de la entrada. ✅
 
-Modifique el backend para admitir esta solicitud.
+Modifique el backend para admitir esta solicitud. ✅
 
 Verifique que la interfaz funcione después de realizar los cambios.
+
+#### 3.18: Base de datos de la agenda telefónica paso 6:
+
+Actualice también el manejo de las rutas api/persons/:id
+e info para usar la base de datos
+y verifique que funcionen directamente con el navegador, Postman o el cliente REST de VS Code.
+
+La inspección de una entrada individual de la agenda desde el navegador debería verse así:
 
 ### ME QUEDE:
 
