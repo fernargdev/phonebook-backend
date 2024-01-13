@@ -165,6 +165,10 @@ Cambie el backend para que la eliminación de entradas de la agenda telefónica 
 
 Verifique que la interfaz aún funcione después de realizar los cambios. ✅
 
+#### 3.16: Base de datos de la agenda telefónica, paso 4 :
+
+Mueva el manejo de errores de la aplicación a un nuevo middleware de manejo de errores.
+
 ### ME QUEDE:
 
 Me quede en: https://fullstackopen.com/en/part3/saving_data_to_mongo_db#exercises-3-13-3-14 ni los he empezado.
