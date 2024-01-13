@@ -1,10 +1,16 @@
-### GET ALL PERSONS
+### GET uknownEnpoint
+GET https://phonebook-backend-gqub.onrender.com/abcde
+
+### GET /info
+GET https://phonebook-backend-gqub.onrender.com/info
+
+### GET /api/persons
 GET https://phonebook-backend-gqub.onrender.com/api/persons
 
-### DELETE A SINGLE PERSON
-DELETE https://phonebook-backend-gqub.onrender.com/api/persons/1
+### GET /api/persons/:id
+GET https://phonebook-backend-gqub.onrender.com//api/persons/65a139f795e537940bb2ec7f
 
-### CREATE NEW PERSON
+### POST /api/persons
 POST https://phonebook-backend-gqub.onrender.com/api/persons
 Content-Type: application/json
 
@@ -12,3 +18,16 @@ Content-Type: application/json
     "name": "Fernando Angel Rodriguez Gonzalez",
     "number": "+53 58450004"
 }
+
+### DELETE /api/persons/:id
+DELETE https://phonebook-backend-gqub.onrender.com/api/persons/65a139f795e537940bb2ec7f
+
+### PUT /api/persons/:id
+Content-Type: application/json
+
+{
+    "name": "Update 1",
+    "number": "1111"
+}
+
+
