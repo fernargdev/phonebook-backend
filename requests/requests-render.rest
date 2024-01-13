@@ -23,11 +23,12 @@ Content-Type: application/json
 DELETE https://phonebook-backend-gqub.onrender.com/api/persons/65a139f795e537940bb2ec7f
 
 ### PUT /api/persons/:id
+PUT https://phonebook-backend-gqub.onrender.com/api/persons/65a13a0695e537940bb2ec81
 Content-Type: application/json
 
 {
-    "name": "Update 1",
-    "number": "1111"
+    "name": "Update 5",
+    "number": "555"
 }
 
 
