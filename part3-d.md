@@ -24,3 +24,21 @@ Puede mostrar el mensaje de error predeterminado devuelto por Mongoose, aunque n
 
 NB: en las operaciones de actualización, los validadores de mongoose están desactivados de forma predeterminada.
 Lea la documentación para determinar cómo habilitarlos. ✅
+
+## 3.20: Base de datos de la agenda telefónica, paso 8:
+
+Agregue validación a su aplicación de directorio telefónico, lo que garantizará que los números de teléfono tengan el formato correcto.
+Un número de teléfono debe:
+
+1. Tener una longitud de 8 o más ✅
+2. Estar formado por dos partes que están separadas por -, ✅
+   la primera parte tiene dos o tres números y
+   la segunda parte también consta de números.
+
+p.ej. 09-1234556 y 040-22334455 son números de teléfono válidos
+p.ej. 1234556, 1-22334455 y 10-22-334455 no son válidos
+
+Utilice un validador personalizado para implementar la segunda parte de la validación. ✅
+
+Si una solicitud HTTP POST intenta agregar a una persona con un número de teléfono no válido, ✅
+el servidor debe responder con un código de estado y un mensaje de error apropiados.
