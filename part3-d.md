@@ -76,3 +76,7 @@ Es solo un repositorio backend que se implementa en toda la parte, nada más. �
 ## 3.22: configuración de Lint:
 
 Agregue ESlint a su aplicación y corrija todas las advertencias.
+
+## Me quede:
+
+Me quede resolviendo el ejercicio 3.22 en la parte que ejecute el npm run lint para ver los errores en todo el projecto
