@@ -12,15 +12,15 @@
 2. Explican los mismo pero para el entorno de render
 3. Dan el codigo fuente hasta el momento que se encuentra en: https://github.com/fullstack-hy2020/part3-notes-backend/tree/part3-6
 
-## 3.19: Base de datos de la agenda telefónica, paso 7:
+## 3.19: Base de datos de la agenda telefónica, paso 7 ✅:
 
-Amplíe la validación para que el nombre almacenado en la base de datos tenga al menos tres caracteres.
+Amplíe la validación para que el nombre almacenado en la base de datos tenga al menos tres caracteres. ✅
 
-Expanda la interfaz para que muestre algún tipo de mensaje de error cuando ocurra un error de validación.
+Expanda la interfaz para que muestre algún tipo de mensaje de error cuando ocurra un error de validación. ✅
 
-El manejo de errores se puede implementar agregando un bloque catch como se muestra a continuación:
+El manejo de errores se puede implementar agregando un bloque catch como se muestra a continuación: ✅
 
-Puede mostrar el mensaje de error predeterminado devuelto por Mongoose, aunque no sean tan legibles como podrían ser:
+Puede mostrar el mensaje de error predeterminado devuelto por Mongoose, aunque no sean tan legibles como podrían ser: ✅
 
-NB: en las operaciones de actualización, los validadores de mangosta están desactivados de forma predeterminada.
-Lea la documentación para determinar cómo habilitarlos.
+NB: en las operaciones de actualización, los validadores de mongoose están desactivados de forma predeterminada.
+Lea la documentación para determinar cómo habilitarlos. ✅
