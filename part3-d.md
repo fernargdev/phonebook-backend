@@ -12,6 +12,18 @@
 2. Explican los mismo pero para el entorno de render
 3. Dan el codigo fuente hasta el momento que se encuentra en: https://github.com/fullstack-hy2020/part3-notes-backend/tree/part3-6
 
+## (Lint) [https://fullstackopen.com/en/part3/validation_and_es_lint#lint]:
+
+1. Te explican que es y para que sirve las herramientas de tipos Lint
+2. Se explica como instalar y configurar para iniciar con ESLint
+3. Se explica como analisar archivos individuales, como analisar todo el proyecto y como ignorar archivos y directorios
+4. Te explican que una buena idea en vez de ejecutar ESLint mediante comandos es usar la extension para VSCode que se encuentra en: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint. Esto hara que nuestro codigo sea analizado a la vez que se escribe
+5. Te explican como configurar el archivo eslintrc.js para establecer algunas reglas que le dan consistencia al codigo.
+6. Te explican sobre la configuracion por defecto y como deshabilitar reglas en ella
+7. Te dan consejo sobre ejecutar ESLint para ver si el formateo de las configuraciones del propio ESLint estan bien despues de modificar estas
+8. Te explican que muchas empresas definen sus estandares de codigo mediante la configuracion de ESLint por lo que es una buena idea adoptar un estilo popular dentro de la industria para estar acorde al mercado. Un estilo bastante popular es el de Airbnb que se puede encontrar en: https://github.com/airbnb/javascript
+9. El codigo fuente de la app de ejemplo hasta este punto se puede encontrar en: https://github.com/fullstack-hy2020/part3-notes-backend/tree/part3-7
+
 ## 3.19: Base de datos de la agenda telefónica, paso 7 ✅:
 
 Amplíe la validación para que el nombre almacenado en la base de datos tenga al menos tres caracteres. ✅
@@ -60,3 +72,7 @@ En caso de utilizar Render, el backend debe estar en la raíz de tu repositorio.
 
 NO implementará la interfaz directamente en ninguna etapa de esta parte.
 Es solo un repositorio backend que se implementa en toda la parte, nada más. ✅
+
+## 3.22: configuración de Lint:
+
+Agregue ESlint a su aplicación y corrija todas las advertencias.
