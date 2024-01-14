@@ -25,7 +25,7 @@ Puede mostrar el mensaje de error predeterminado devuelto por Mongoose, aunque n
 NB: en las operaciones de actualización, los validadores de mongoose están desactivados de forma predeterminada.
 Lea la documentación para determinar cómo habilitarlos. ✅
 
-## 3.20: Base de datos de la agenda telefónica, paso 8:
+## 3.20: Base de datos de la agenda telefónica, paso 8 ✅:
 
 Agregue validación a su aplicación de directorio telefónico, lo que garantizará que los números de teléfono tengan el formato correcto.
 Un número de teléfono debe:
@@ -42,3 +42,21 @@ Utilice un validador personalizado para implementar la segunda parte de la valid
 
 Si una solicitud HTTP POST intenta agregar a una persona con un número de teléfono no válido, ✅
 el servidor debe responder con un código de estado y un mensaje de error apropiados.
+
+## 3.21 Implementación del backend de la base de datos en producción ✅:
+
+Genere una nueva versión "completa" de la aplicación
+creando una nueva compilación de producción del frontend
+y copiándola en el repositorio del backend.
+Verifique que todo funcione localmente utilizando la aplicación completa
+desde la dirección http://localhost:3001/ ✅
+
+Envíe la última versión a Fly.io/Render y verifique que todo funcione allí también. ✅
+
+NOTA : debe implementar el BACKEND en el servicio en la nube.
+Si está utilizando Fly.io, los comandos deben ejecutarse en el directorio raíz del backend
+(es decir, en el mismo directorio donde está el backend package.json).
+En caso de utilizar Render, el backend debe estar en la raíz de tu repositorio. ✅
+
+NO implementará la interfaz directamente en ninguna etapa de esta parte.
+Es solo un repositorio backend que se implementa en toda la parte, nada más. ✅
