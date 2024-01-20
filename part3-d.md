@@ -79,4 +79,4 @@ Agregue ESlint a su aplicación y corrija todas las advertencias.
 
 ## Me quede:
 
-Me quede resolviendo el ejercicio 3.22 en la parte que ejecute el npm run lint para ver los errores en todo el projecto
+Me quede por: https://fullstackopen.com/en/part4
